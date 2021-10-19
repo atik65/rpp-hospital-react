@@ -1,0 +1,16 @@
+.contact-info {
+  padding-top: 40px;
+  position: relative;
+  top: 87px;
+}
+
+.contact-info {
+  line-height: 8px;
+}
+
+.contact-info .far,
+.contact-info .fas {
+  padding-top: 7px;
+  font-size: 30px;
+  color: #3eb8d7;
+}

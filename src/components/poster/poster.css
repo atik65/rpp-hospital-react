@@ -1,0 +1,41 @@
+.poster {
+  position: relative;
+  top: 87px;
+  padding-top: 50px;
+}
+.poster h4 {
+  padding-bottom: 20px;
+}
+
+.poster p {
+  font-size: 14px;
+}
+.poster-one {
+  background-color: #3eb8d7;
+  color: #fff;
+  padding: 30px;
+  height: 300px;
+}
+
+.poster-two {
+  background-color: #0392ce;
+  color: #fff;
+  padding: 30px;
+  height: 300px;
+}
+.poster-three {
+  background-color: #3065b5;
+  color: #fff;
+  padding: 30px;
+  height: 300px;
+}
+
+.poster-three p {
+  padding-top: 20px;
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 10px;
+}
+
+.first-child {
+  padding-top: 0 !important;
+}

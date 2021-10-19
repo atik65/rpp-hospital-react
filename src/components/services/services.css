@@ -1,0 +1,23 @@
+.services {
+  position: relative;
+  top: 87px;
+
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+  }
+}

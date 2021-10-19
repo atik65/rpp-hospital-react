@@ -1,0 +1,55 @@
+.nav-bg {
+  background-color: #fff;
+}
+
+.logo-title {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: #4575bd;
+}
+
+.header-link {
+  padding: 10px 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.header-link::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #4575bd;
+  left: 20%;
+  transition: all 0.2s;
+}
+
+.header-link:hover::after {
+  width: 60%;
+}
+
+.header-link a:hover {
+  color: #4575bd !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-title {
+    font-size: 22px;
+  }
+
+  .header-link::after {
+    background-color: #4575bd;
+    left: 40%;
+  }
+
+  .header-link:hover::after {
+    width: 20%;
+  }
+
+  .header-link {
+    padding: 0px 10px;
+    text-align: center;
+  }
+}

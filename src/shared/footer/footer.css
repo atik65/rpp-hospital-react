@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+  top: 87px;
+  background-color: #222222;
+  padding: 40px 0;
+}
+
+.footer h6 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.footer h6::after {
+  content: "";
+  height: 1px;
+  width: 10%;
+  position: absolute;
+  background-color: #3eb8d7;
+  bottom: 0;
+  left: 45%;
+}
+
+.footer p {
+  color: rgb(187, 187, 187);
+}
+
+.footer p span {
+  margin-right: 15px;
+}
+
+.footer li {
+  color: rgb(187, 187, 187);
+  margin-bottom: 10px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.651);
+}
