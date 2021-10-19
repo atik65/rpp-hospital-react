@@ -8,19 +8,26 @@ import Doctors from "./pages/doctors/Doctors";
 import ServiceDetails from "./pages/serviceDetails/ServiceDetails";
 import Contact from "./pages/contact/Contact";
 import Faq from "./pages/faq/Faq";
+import Login from "./pages/login/Login";
+import AuthProvider from "./contexts/AuthProvider";
+import Appoinment from "./pages/appoinment/Appoinment";
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/home" component={Home} />
-        <Route path="/doctors" component={Doctors} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/faq" component={Faq} />
-        <Route path="/services/:id" component={ServiceDetails} />
-      </Switch>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/home" component={Home} />
+          <Route path="/doctors" component={Doctors} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/faq" component={Faq} />
+          <Route path="/login" component={Login} />
+          <Route path="/appoinment" component={Appoinment} />
+          <Route path="/services/:id" component={ServiceDetails} />
+        </Switch>
+      </Router>
+    </AuthProvider>
   );
 }
 

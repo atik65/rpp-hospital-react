@@ -35,6 +35,10 @@
   color: #4575bd !important;
 }
 
+.logout-button {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .logo-title {
     font-size: 22px;

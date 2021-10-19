@@ -4,6 +4,7 @@ import Header from "../../shared/header/Header";
 import "./contact.css";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import useAuth from "../../hooks/useAuth";
 
 const Contact = () => {
   const handleSubmit = () => {

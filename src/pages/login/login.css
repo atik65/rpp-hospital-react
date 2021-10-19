@@ -1,0 +1,19 @@
+.login {
+  position: relative;
+  top: 87px;
+}
+
+.register {
+  width: 100%;
+  margin: auto;
+}
+
+.login-img {
+  width: 100%;
+}
+
+.isLogedIn {
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 50px;
+}
