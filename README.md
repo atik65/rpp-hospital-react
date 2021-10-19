@@ -10,3 +10,5 @@
 - Log in with Google and Email/password
 - Dynamic Route
 - Private Route
+
+#### Wait a while when you load this website in your browser for the first time...
