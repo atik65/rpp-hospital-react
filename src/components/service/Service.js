@@ -4,7 +4,7 @@ import "./service.css";
 
 const Service = ({ service }) => {
   const { id, name, shortDes, image } = service;
-  console.log(name, shortDes, image);
+
   return (
     <div data-aos="fade-up" className="service">
       <div className="service-main mb-2">

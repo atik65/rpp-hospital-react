@@ -1,0 +1,21 @@
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .doctors {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.loading {
+  position: relative;
+  top: 87px;
+  padding: auto;
+  text-align: center;
+  padding: 50px 50px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}

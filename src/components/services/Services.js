@@ -14,7 +14,6 @@ const Services = () => {
       });
   }, []);
 
-  console.log(servicesData);
   return (
     <div className="services container px-3 p-md-0">
       <h3>Our Services</h3>

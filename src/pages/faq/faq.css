@@ -1,0 +1,13 @@
+.faq {
+  position: relative;
+  top: 87px;
+}
+.faq-inner {
+  width: 40% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq-inner {
+    width: 100% !important;
+  }
+}

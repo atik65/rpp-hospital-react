@@ -5,32 +5,32 @@ const Footer = () => {
   return (
     <div className="footer ">
       <div className="container p-0">
-        <div className="row">
+        <div className="row  m-0">
           <div className="col-md-4 ">
             <h6>Contact Information</h6>
 
             <div className="pt-5">
               <p>
                 <span>
-                  <i class="fas fa-map-marker-alt"></i>
+                  <i className="fas fa-map-marker-alt"></i>
                 </span>
                 4512 Rpp Street
               </p>
               <p>
                 <span>
-                  <i class="fas fa-globe"></i>
+                  <i className="fas fa-globe"></i>
                 </span>
                 rpp-medical.net
               </p>
               <p>
                 <span>
-                  <i class="far fa-envelope"></i>
+                  <i className="far fa-envelope"></i>
                 </span>
                 rpp-medical@email.com
               </p>
               <p>
                 <span>
-                  <i class="fas fa-mobile-alt"></i>
+                  <i className="fas fa-mobile-alt"></i>
                 </span>
                 0-111-123-4567
               </p>

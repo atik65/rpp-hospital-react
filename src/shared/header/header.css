@@ -18,6 +18,7 @@
 
 .header-link::after {
   position: absolute;
+  bottom: 0;
   content: "";
   height: 2px;
   width: 0%;

@@ -56,9 +56,7 @@ const Banner = () => {
           <div class="carousel-item active">
             <img src={banner1} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block slider-caption">
-              <p>Entrust your health our doctors</p>
-              <h2>The Hospital of the Future, Today</h2>
-              <div>
+              <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
                 </NavLink>
@@ -66,14 +64,14 @@ const Banner = () => {
                   Doctors
                 </NavLink>
               </div>
+              <p>Entrust your health our doctors</p>
+              <h2>The Hospital of the Future, Today</h2>
             </div>
           </div>
           <div class="carousel-item">
             <img src={banner2} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block slider-caption">
-              <p>Entrust your health our doctors</p>
-              <h2>Medical services that you can trust</h2>
-              <div>
+              <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
                 </NavLink>
@@ -81,14 +79,14 @@ const Banner = () => {
                   Doctors
                 </NavLink>
               </div>
+              <p>Entrust your health our doctors</p>
+              <h2>Medical services that you can trust</h2>
             </div>
           </div>
           <div class="carousel-item">
             <img src={banner3} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block slider-caption">
-              <p>Entrust your health our doctors</p>
-              <h2>Medical excellence every day.</h2>
-              <div>
+              <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
                 </NavLink>
@@ -96,14 +94,14 @@ const Banner = () => {
                   Doctors
                 </NavLink>
               </div>
+              <p>Entrust your health our doctors</p>
+              <h2>Medical excellence every day.</h2>
             </div>
           </div>
           <div class="carousel-item">
             <img src={banner4} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block slider-caption">
-              <p>Entrust your health our doctors</p>
-              <h2>Exceptional people. Exceptional care.</h2>
-              <div>
+              <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
                 </NavLink>
@@ -111,15 +109,15 @@ const Banner = () => {
                   Doctors
                 </NavLink>
               </div>
+              <p>Entrust your health our doctors</p>
+              <h2>Exceptional people. Exceptional care.</h2>
             </div>
           </div>
 
           <div class="carousel-item">
             <img src={banner5} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block slider-caption">
-              <p>Entrust your health our doctors</p>
-              <h2>Healthcare just for kids. Saving children.</h2>
-              <div>
+              <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
                 </NavLink>
@@ -127,6 +125,8 @@ const Banner = () => {
                   Doctors
                 </NavLink>
               </div>
+              <p>Entrust your health our doctors</p>
+              <h2>Healthcare just for kids. Saving children.</h2>
             </div>
           </div>
         </div>

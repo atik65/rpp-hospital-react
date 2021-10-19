@@ -24,8 +24,9 @@
   text-shadow: none;
   border: 1px dotted rgb(246, 246, 246);
   background-color: inherit;
-  padding: 10px;
+  padding: 10px 30px;
   transition: all 0.3s;
+  z-index: 5 !important;
 }
 
 .slider-button:hover {
