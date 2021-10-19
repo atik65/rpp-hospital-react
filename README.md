@@ -10,5 +10,7 @@
 - Log in with Google and Email/password
 - Dynamic Route
 - Private Route
+- simple Scrollig animation with AOS library
+- using sweet alert libray for nice modal.
 
 #### Wait a while when you load this website in your browser for the first time...
