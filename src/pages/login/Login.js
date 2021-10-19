@@ -7,10 +7,11 @@ import image from "../../images/login/login.jpg";
 import useAuth from "../../hooks/useAuth";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { useHistory } from "react-router";
+import { useHistory, useLocation } from "react-router";
 
 const Login = () => {
   const history = useHistory();
+  const location = useLocation();
   const { googleSignIn, RegisterWithEmail, logIn } = useAuth();
   const [logedIn, setLogedIn] = useState(true);
   const [errMsg, setErrMsg] = useState("");
@@ -19,6 +20,10 @@ const Login = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+  // redirect url
+  const redirectUrl = location?.state?.from || "/";
+  console.log(redirectUrl);
 
   const onSubmit = (data) => {
     if (logedIn) {
@@ -39,7 +44,7 @@ const Login = () => {
         setErrMsg("");
         // sweet alert func
         Swal.fire("Congratulation!", "New Regestraion completed!", "success");
-        history.push("/");
+        history.push(redirectUrl);
       })
       .catch((error) => {
         setErrMsg(error.message);
@@ -53,7 +58,7 @@ const Login = () => {
   const SignIn = (email, password) => {
     logIn(email, password)
       .then((result) => {
-        history.push("/");
+        history.push(redirectUrl);
         setErrMsg("");
         // sweet alert func
         Swal.fire("Congratulation!", "User Log In successful!", "success");
@@ -71,7 +76,7 @@ const Login = () => {
     googleSignIn()
       .then((result) => {
         setErrMsg("");
-        history.push("/");
+        history.push(redirectUrl);
         Swal.fire("Yooo!", "You Signed In Successfully", "success");
       })
       .catch((error) => {

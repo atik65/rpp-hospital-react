@@ -13,15 +13,15 @@ const Banner = () => {
     <div className="banner">
       <div
         id="carouselExampleCaptions"
-        class="carousel slide  "
+        className="carousel slide  "
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -52,10 +52,10 @@ const Banner = () => {
             aria-label="Slide 5"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={banner1} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block slider-caption">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={banner1} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block slider-caption">
               <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
@@ -68,9 +68,9 @@ const Banner = () => {
               <h2>The Hospital of the Future, Today</h2>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={banner2} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block slider-caption">
+          <div className="carousel-item">
+            <img src={banner2} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block slider-caption">
               <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
@@ -83,9 +83,9 @@ const Banner = () => {
               <h2>Medical services that you can trust</h2>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={banner3} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block slider-caption">
+          <div className="carousel-item">
+            <img src={banner3} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block slider-caption">
               <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
@@ -98,9 +98,9 @@ const Banner = () => {
               <h2>Medical excellence every day.</h2>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={banner4} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block slider-caption">
+          <div className="carousel-item">
+            <img src={banner4} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block slider-caption">
               <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
@@ -114,9 +114,9 @@ const Banner = () => {
             </div>
           </div>
 
-          <div class="carousel-item">
-            <img src={banner5} class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block slider-caption">
+          <div className="carousel-item">
+            <img src={banner5} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block slider-caption">
               <div className="mb-5">
                 <NavLink to="/appoinment" className="slider-button">
                   Make an Appoinment
@@ -131,22 +131,28 @@ const Banner = () => {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

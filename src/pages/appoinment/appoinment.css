@@ -2,3 +2,37 @@
   position: relative;
   top: 87px;
 }
+.book-appoinment {
+  background-color: #3065b5;
+  margin-top: 50px;
+  padding: 50px 20px;
+}
+
+.book-appoinment input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  background-color: #5984c4;
+  border: 1px solid #fff;
+  color: #fff;
+  outline: none;
+}
+.book-appoinment button {
+  width: 95%;
+
+  padding: 7px 50px;
+  background-color: #5984c4;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.select-input {
+  background-color: #5984c4 !important;
+  color: #fff !important;
+  border-radius: 0px !important;
+  border: 1px solid #fff !important;
+}
+
+.book-appoinment input::placeholder {
+  color: #fff;
+}

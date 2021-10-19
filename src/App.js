@@ -11,6 +11,8 @@ import Faq from "./pages/faq/Faq";
 import Login from "./pages/login/Login";
 import AuthProvider from "./contexts/AuthProvider";
 import Appoinment from "./pages/appoinment/Appoinment";
+import PrivateRoute from "./components/privateRoute/PrivateRoute";
+import NotFound from "./pages/notFound/NotFound";
 
 function App() {
   return (
@@ -23,8 +25,12 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/faq" component={Faq} />
           <Route path="/login" component={Login} />
-          <Route path="/appoinment" component={Appoinment} />
+          <PrivateRoute path="/appoinment">
+            {" "}
+            <Appoinment />{" "}
+          </PrivateRoute>
           <Route path="/services/:id" component={ServiceDetails} />
+          <Route component={NotFound} />
         </Switch>
       </Router>
     </AuthProvider>

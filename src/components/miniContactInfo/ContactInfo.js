@@ -8,7 +8,7 @@ const ContactInfo = () => {
         <div className="col-md-4">
           <div className="row">
             <div className="col-2">
-              <i class="fas fa-mobile-alt"></i>
+              <i className="fas fa-mobile-alt"></i>
             </div>
             <div className="col-10">
               <p>Give us a Call</p>
@@ -19,7 +19,7 @@ const ContactInfo = () => {
         <div className="col-md-4 mt-3 mt-md-0">
           <div className="row">
             <div className="col-2">
-              <i class="far fa-envelope"></i>
+              <i className="far fa-envelope"></i>
             </div>
             <div className="col-10">
               <p>Send us a Message</p>
@@ -30,7 +30,7 @@ const ContactInfo = () => {
         <div className="col-md-4 mt-3 mt-md-0">
           <div className="row">
             <div className="col-2">
-              <i class="fas fa-map-marker-alt"></i>
+              <i className="fas fa-map-marker-alt"></i>
             </div>
             <div className="col-10">
               <p>Visit our Location</p>
