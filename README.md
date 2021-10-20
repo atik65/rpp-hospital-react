@@ -14,6 +14,6 @@
 - using sweet alert libray for nice modal.
 
 ## Some Screenshots ---
-<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRYMR20QzRw-QSmXqqWyQzgSBnZKPrWaq5kQ&usqp=CAU' />
+<img src='https://ibb.co/sgt5dRb' />
 
 #### Wait a while when you load this website in your browser for the first time...
