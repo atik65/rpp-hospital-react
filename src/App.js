@@ -29,7 +29,11 @@ function App() {
             {" "}
             <Appoinment />{" "}
           </PrivateRoute>
-          <Route path="/services/:id" component={ServiceDetails} />
+          {/* <Route path="/services/:id" component={ServiceDetails} /> */}
+
+          <PrivateRoute path="/services/:id">
+            <ServiceDetails />
+          </PrivateRoute>
           <Route component={NotFound} />
         </Switch>
       </Router>
